@@ -75,4 +75,8 @@ module Yapper::Document
   def hash
     self.id.hash
   end
+  
+  def key
+    self.id
+  end
 end
